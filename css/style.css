@@ -1,0 +1,41 @@
+html,
+body {
+    height: 100%;
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+}
+
+/* NAV */
+.nav-link {
+    color: rgb(0, 102, 255);
+}
+
+/* SPANS */
+.bold-blue {
+    color: rgb(0, 102, 255);
+}
+
+
+.white {
+    color: white;
+}
+
+/* LOGO */
+.logo {
+    margin: 0;
+}
+
+.welcome-message {
+    padding: 70px 0;
+}
+
+.welcome {
+    font-size: 24px;
+    text-align: center;
+
+}
+
+.welcome2 {
+    font-size: 20px;
+    text-align: center;
+}
