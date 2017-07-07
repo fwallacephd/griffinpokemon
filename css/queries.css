@@ -1,0 +1,22 @@
+/*Big table to 1200px (widths smaller than the 1140px row)*/
+@media only screen and (max-width: 1200px){
+    .logo-image {
+        width: 100%;
+    }
+
+    .welcome-message {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1023px){
+
+}
+
+@media only screen and (max-width: 767px){
+
+}
+
+@media only screen and (max-width: 480px){
+
+}
