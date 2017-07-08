@@ -21,24 +21,52 @@ body {
 }
 
 /* LOGO */
-.logo {
+#logo {
     margin: 0;
+    width: 100%;
 }
 
 .welcome-message {
     padding: 70px 0;
+    width: 100%;
 }
 
 .welcome {
     font-size: 24px;
     text-align: center;
+    width: 100%;
 
 }
 
 .welcome2 {
     font-size: 20px;
     text-align: center;
+    width: 100%;
 }
 
 /* MEDIA QUERIES */
+@media only screen and (max-width: 1084px){
+    #logo {
+    margin: 0;
+    width: 75%;
+}
+
+.welcome-message {
+    padding: 70px 0;
+    width: 75%;
+}
+
+.welcome {
+    font-size: 24px;
+    text-align: center;
+    width: 75%;
+
+}
+
+.welcome2 {
+    font-size: 20px;
+    text-align: center;
+    width: 75%;
+}
+}
 

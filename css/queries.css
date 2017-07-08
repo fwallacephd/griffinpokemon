@@ -1,5 +1,28 @@
-/*Big table to 1200px (widths smaller than the 1140px row)*/
+/*Big table to 1200px (widths smaller than the 1140px row)
 @media only screen and (max-width: 1200px){
+
+}
+
+@media only screen and (max-width: 1023px){
+
+
+}
+
+@media only screen and (max-width: 767px){
+    #logo {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    #logo {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
     .logo-image {
         width: 100%;
     }
@@ -8,15 +31,29 @@
         width: 100%;
     }
 }
+*/
 
-@media only screen and (max-width: 1023px){
+@media only screen and (max-width: 1084px){
+    #logo {
+    margin: 0;
+    width: 75%;
+}
+
+.welcome-message {
+    padding: 70px 0;
+    width: 75%;
+}
+
+.welcome {
+    font-size: 24px;
+    text-align: center;
+    width: 75%;
 
 }
 
-@media only screen and (max-width: 767px){
-
+.welcome2 {
+    font-size: 20px;
+    text-align: center;
+    width: 75%;
 }
-
-@media only screen and (max-width: 480px){
-
 }
