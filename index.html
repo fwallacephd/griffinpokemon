@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <!-- Bootstrap CSS -->
-    <meta name="keywords" content="HTML, CSS, Javascript" />
     <link rel ="stylesheet" type="text/css" href="css/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -23,45 +22,52 @@
 </head>
 <body>
     <section id="navigation">
-        <nav class="navbar navbar-dark bg-inverse navbar-full navbar-toggleable-md" id="main-nav">
+        <nav class="navbar navbar-inverse bg-inverse navbar-full navbar-toggleable-md" id="main-nav">
         <a class="navbar-brand" href="#cover"><span class="white">Griffin's</span><span class="bold-blue">POKEMON</span><span class="white">Website</span></a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#main-nav-menu" aria-controls="main-nav-menu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="main-nav-menu">
         <ul class="nav navbar-nav mr-auto">
             <li class="nav-item">
-                <a class="nav-link" href="#cover">Home</a>
+                <a class="nav-link" href="#navigation">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#features">Videos</a>
+                <a class="nav-link" href="#videos">Videos</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#timeline">Information</a>
+                <a class="nav-link" href="#information">Information</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#products">My Cards</a>
+                <a class="nav-link" href="#mycards">My Cards</a>
             </li>
         </ul>
         <form class="form-inline search-button">
             <input class="form-control" type="text" placehold="Search">
             <button class="btn btn-success-outline search" type="submit">Search</button>
         </form>
-    </nav>
+            </div>
+        </nav>
     </section>
 
     <section id="logo">
         <div class="container-fluid">
-           <br>
            <div class="row">
-                <div class="col-md-6">
-                    <img class="logo" src="img/pokemonlogo.jpg" alt="Pokemon Logo" style="">
+                <div class="col-md-6 logo-image">
+                    <img class="logo w-100" src="img/pokemonlogo.jpg" alt="Pokemon Logo" style="">
                 </div>
-                <div class="col-md-6 welcome-message">
+                <div class="col-md-6 d-flex flex-column justify-content-center welcome-message">
                     <p class="welcome">Welcome to Griffin's <span class="bold-blue">POKEMON</span> Page.</p>
-                    <p class="welcome2">Here you will find Griffin's favorite <span class="bold-blue">POKEMON</span> videos and<br> information about his cards. Enjoy.</p>
+                    <p class="welcome2">Here you will find Griffin's favorite <span class="bold-blue">POKEMON</span> videos and information about his cards. Enjoy.</p>
                </div>
            </div>
             </div>
 
     </section>
 
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
 
 </body>
 </html>
